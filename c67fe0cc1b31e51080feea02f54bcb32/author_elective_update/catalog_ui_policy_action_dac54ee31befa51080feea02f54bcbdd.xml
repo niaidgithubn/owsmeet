@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request A/V Support">6fa47c951bfde91080feea02f54bcba0</catalog_item>
+        <catalog_variable>IO:7246b1081b75e51080feea02f54bcbb7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-06-26 18:28:58</sys_created_on>
+        <sys_id>dac54ee31befa51080feea02f54bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please_indicate_your_av_needs</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dac54ee31befa51080feea02f54bcbdd</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-06-26 18:28:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Please indicate your AV needs">3fa5cae31befa51080feea02f54bcbd2</ui_policy>
+        <variable>please_indicate_your_av_needs</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_action_dac54ee31befa51080feea02f54bcbdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request A/V Support">6fa47c951bfde91080feea02f54bcba0</catalog_item><catalog_variable>IO:7246b1081b75e51080feea02f54bcbb7</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-06-26 18:28:58</sys_created_on><sys_id>dac54ee31befa51080feea02f54bcbdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>please_indicate_your_av_needs</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>catalog_ui_policy_action_dac54ee31befa51080feea02f54bcbdd</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-06-26 18:28:58</sys_updated_on><table/><ui_policy display_value="Please indicate your AV needs">3fa5cae31befa51080feea02f54bcbd2</ui_policy><variable>please_indicate_your_av_needs</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2121505608</payload_hash>
+        <record_name>please_indicate_your_av_needs</record_name>
+        <reverted_from/>
+        <source>dfe206231befa51080feea02f54bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-06-26 18:28:58</sys_created_on>
+        <sys_id>f6e58ea31befa51080feea02f54bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188f8f7549a0000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-06-26 18:28:58</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fee58ea3c3efa510dd6ebd05ce2c80a8</update_guid>
+        <update_guid_history>fee58ea3c3efa510dd6ebd05ce2c80a8:-2121505608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7e164ee31befa51080feea02f54bcbac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-06-26 18:29:47</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>65693c1d51fd4b9abb6a6fc0ba5e2ed9</sys_id>
+        <sys_metadata>dac54ee31befa51080feea02f54bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>please_indicate_your_av_needs</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_dac54ee31befa51080feea02f54bcbdd</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_dac54ee31befa51080feea02f54bcbdd">f6e58ea31befa51080feea02f54bcba9</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-06-26 18:29:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

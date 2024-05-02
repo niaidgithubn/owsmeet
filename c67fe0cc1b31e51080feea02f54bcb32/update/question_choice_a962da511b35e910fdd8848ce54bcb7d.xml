@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="How early should the AV tech contact you on the day of your meeting?">ea329e511b35e910fdd8848ce54bcb36</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 19:48:00</sys_created_on>
+        <sys_id>a962da511b35e910fdd8848ce54bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start of meeting</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>question_choice_a962da511b35e910fdd8848ce54bcb7d</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:48:00</sys_updated_on>
+        <text>Start of meeting</text>
+        <value>start_of_meeting</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=a962da511b35e910fdd8848ce54bcb7d"/>
+</record_update>

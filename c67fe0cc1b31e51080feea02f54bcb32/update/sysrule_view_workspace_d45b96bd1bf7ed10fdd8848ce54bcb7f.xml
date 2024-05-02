@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>Details</default_tab_focus>
+        <default_tab_order>true</default_tab_order>
+        <description/>
+        <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>false</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
+        <hide_section_menu>false</hide_section_menu>
+        <name>u_cmdb_ci_niaid_scientific - cmdb_worksp</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-07-03 19:48:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d45b96bd1bf7ed10fdd8848ce54bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_ci_niaid_scientific - cmdb_worksp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sysrule_view_workspace_d45b96bd1bf7ed10fdd8848ce54bcb7f</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-07-03 19:48:46</sys_updated_on>
+        <table>u_cmdb_ci_niaid_scientific</table>
+        <tabs_order/>
+        <view display_value="CMDB Agent Workspace" name="cmdb_workspace">169d5a872300001009d5110d96bf6537</view>
+        <workspace/>
+    </sysrule_view_workspace>
+</record_update>

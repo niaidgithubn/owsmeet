@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>category-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:35:20</sys_created_on>
+        <sys_id>335270801b71e51080feea02f54bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category-FieldValue</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_335270801b71e51080feea02f54bcb09</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:35:20</sys_updated_on>
+        <view_config display_value="Meet cat-subcat Detail Screen View Config">7b5230801b71e51080feea02f54bcbff</view_config>
+        <view_template_slot display_value="text_03">ef5ef07841e35010f877183fc9b8be34</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

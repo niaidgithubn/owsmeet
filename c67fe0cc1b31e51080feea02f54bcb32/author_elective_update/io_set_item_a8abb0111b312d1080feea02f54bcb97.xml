@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>7000</order>
+        <sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:28:12</sys_created_on>
+        <sys_id>a8abb0111b312d1080feea02f54bcb97</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Meeting Planning Company.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_a8abb0111b312d1080feea02f54bcb97</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 14:39:33</sys_updated_on>
+        <variable_set display_value="Meeting Planning Company">567ab09d1bfde91080feea02f54bcb8e</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>io_set_item_a8abb0111b312d1080feea02f54bcb97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>7000</order><sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-24 13:28:12</sys_created_on><sys_id>a8abb0111b312d1080feea02f54bcb97</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Meeting Planning Company.Room Reservation</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>io_set_item_a8abb0111b312d1080feea02f54bcb97</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-24 14:39:33</sys_updated_on><variable_set display_value="Meeting Planning Company">567ab09d1bfde91080feea02f54bcb8e</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1067954723</payload_hash>
+        <record_name>Meeting Planning Company.Room Reservation</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 14:39:33</sys_created_on>
+        <sys_id>edfb05911b712d1080feea02f54bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187140f810a0000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 14:39:33</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>a5fb059110712d10d12f1967d6ad8f89</update_guid>
+        <update_guid_history>a5fb059110712d10d12f1967d6ad8f89:1067954723,8adb0d9193712d10c5b5b425c947bba7:312188900,691cf8116f312d10d6caa43df6048f9a:1439350587,6cabb01178312d10671f3f298129be9c:-2137796631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">eab96e1a1b52e110fdd8848ce54bcb81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 20:34:32</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>20d2346c1feb450c8425e3c4cbd79290</sys_id>
+        <sys_metadata>a8abb0111b312d1080feea02f54bcb97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meeting Planning Company.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>io_set_item_a8abb0111b312d1080feea02f54bcb97</sys_update_name>
+        <sys_update_version display_value="io_set_item_a8abb0111b312d1080feea02f54bcb97">edfb05911b712d1080feea02f54bcb89</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:34:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

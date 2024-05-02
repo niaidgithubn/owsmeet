@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ows_meet</internal_name>
+        <label_cache>[{"name":"490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state","label":"3 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"used":false,"label":"Open","rawLabel":"Open","selected":false,"missing":false,"reference":false,"image":"","value":"1","parameters":{"name":"task"}},{"used":false,"label":"Pending","rawLabel":"Pending","selected":false,"missing":false,"reference":false,"image":"","value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","rawLabel":"Work in Progress","selected":false,"missing":false,"reference":false,"image":"","value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"reference":false,"image":"","value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"reference":false,"image":"","value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"reference":false,"image":"","value":"7","parameters":{"name":"task"}}]},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item.cat_item.name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comment","label":"1➛additional_comment","reference":"","reference_display":"additional_comment","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.room_location","label":"1 - Get Catalog Variables➛room_location","reference":"x_g_nioa_ows_meet_meet_cat_subcat","reference_display":"Meet cat-subcat","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0}],"attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <master_snapshot>170352df1b1ee51080feea02f54bcb93</master_snapshot>
+        <name>OWS MEET</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f30392df1b1ee51080feea02f54bcbca</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:00:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d77c0e971b1ee51080feea02f54bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OWS MEET</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sys_hub_flow_d77c0e971b1ee51080feea02f54bcb8e</sys_update_name>
+        <sys_updated_by>ramamurthyu2</sys_updated_by>
+        <sys_updated_on>2024-02-29 20:34:06</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f30392df1b1ee51080feea02f54bcbca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:29:59</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN750312df1b1ee51080feea02f54bcb4c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>750312df1b1ee51080feea02f54bcb4c</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=750312df1b1ee51080feea02f54bcb4c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN12525e231b387910fdd8848ce54bcbc3,16525e231b387910fdd8848ce54bcbc3,1a525e231b387910fdd8848ce54bcbc2,1a525e231b387910fdd8848ce54bcbc3,92525e231b387910fdd8848ce54bcbc3,96525e231b387910fdd8848ce54bcbc3"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>0</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Request Approved</label>
+        <order>2</order>
+        <stage_id>17ff3e98-37ca-49d8-ac4c-e47aee1bc7b4</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>12525e231b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <type>standard</type>
+        <value>request_approved</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>4</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Request Cancelled</label>
+        <order>0</order>
+        <stage_id>b8922ed5-c22d-4fa0-bd7a-d57f991eca0d</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>16525e231b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <type>standard</type>
+        <value>Request Cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Delivery</label>
+        <order>5</order>
+        <stage_id>b827a7e2-b76f-447f-a023-39ceb843d1ee</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>1a525e231b387910fdd8848ce54bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:41:46</sys_updated_on>
+        <type>standard</type>
+        <value>delivery</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Waiting for Approval</label>
+        <order>3</order>
+        <stage_id>14a42152-00bc-45b3-8c9a-7c6f7f3dcf5f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>1a525e231b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:41:46</sys_updated_on>
+        <type>standard</type>
+        <value>waiting_for_approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>2</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Fulfillment</label>
+        <order>4</order>
+        <stage_id>0a41cde8-9cae-4fe9-a3ae-fa355e75b8e0</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>92525e231b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <type>standard</type>
+        <value>fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <label>Completed</label>
+        <order>1</order>
+        <stage_id>ba28ed65-8a6b-4c08-a8d3-55faf30a3272</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:41:46</sys_created_on>
+        <sys_id>96525e231b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:41:46</sys_updated_on>
+        <type>standard</type>
+        <value>complete</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN5b7c0e971b1ee51080feea02f54bcb8f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d77c0e971b1ee51080feea02f54bcb8e</id>
+        <name>OWS MEET</name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:00:42</sys_created_on>
+        <sys_id>5b7c0e971b1ee51080feea02f54bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:00:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5b7c0e971b1ee51080feea02f54bcb8f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN710312df1b1ee51080feea02f54bcb40,fd0312df1b1ee51080feea02f54bcb44"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</model>
+        <model_id>d77c0e971b1ee51080feea02f54bcb8e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>710312df1b1ee51080feea02f54bcb40</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</model>
+        <model_id>d77c0e971b1ee51080feea02f54bcb8e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>fd0312df1b1ee51080feea02f54bcb44</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN372a1ee21bfc7510fdd8848ce54bcb68,3d0312df1b1ee51080feea02f54bcb51,5a8d6ad61ba0f510fdd8848ce54bcb34,7d0312df1b1ee51080feea02f54bcb5b,9c9456271b387910fdd8848ce54bcb5a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>372a1ee21bfc7510fdd8848ce54bcb68</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:51:52</sys_updated_on>
+        <ui_id>04abf897-4ae7-42bc-9d62-aa4ec4ec2f68</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=372a1ee21bfc7510fdd8848ce54bcb68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>372a1ee21bfc7510fdd8848ce54bcb68</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>013a5ee21bfc7510fdd8848ce54bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <value>state=3^stage=complete</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>372a1ee21bfc7510fdd8848ce54bcb68</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>bb2a1ee21bfc7510fdd8848ce54bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:04</sys_updated_on>
+        <value>state=3^stage=complete</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>372a1ee21bfc7510fdd8848ce54bcb68</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>c13a5ee21bfc7510fdd8848ce54bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>372a1ee21bfc7510fdd8848ce54bcb68</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>f32a1ee21bfc7510fdd8848ce54bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:04</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=372a1ee21bfc7510fdd8848ce54bcb68"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>c93a5ee21bfc7510fdd8848ce54bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>3b2a1ee21bfc7510fdd8848ce54bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>093a5ee21bfc7510fdd8848ce54bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>bf2a1ee21bfc7510fdd8848ce54bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>8d3a5ee21bfc7510fdd8848ce54bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>372a1ee21bfc7510fdd8848ce54bcb68</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:04</sys_created_on>
+        <sys_id>772a1ee21bfc7510fdd8848ce54bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=372a1ee21bfc7510fdd8848ce54bcb68"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=372a1ee21bfc7510fdd8848ce54bcb68"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>3d0312df1b1ee51080feea02f54bcb51</sys_id>
+        <sys_mod_count>112</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:51:52</sys_updated_on>
+        <ui_id>8225e2a3-51e6-40af-8c5d-761fa024e83a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3d0312df1b1ee51080feea02f54bcb51"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d0312df1b1ee51080feea02f54bcb51</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>430352df1b1ee51080feea02f54bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Items and Variable Sets">9de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d0312df1b1ee51080feea02f54bcb51</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>790312df1b1ee51080feea02f54bcb54</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:16</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d0312df1b1ee51080feea02f54bcb51</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>8f0352df1b1ee51080feea02f54bcb3d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,5e02c2111bf1e910fdd8848ce54bcb44:item_option_new,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new</value>
+        <variable display_value="Catalog Variables">7de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d0312df1b1ee51080feea02f54bcb51</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>b10312df1b1ee51080feea02f54bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d0312df1b1ee51080feea02f54bcb51"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>870352df1b1ee51080feea02f54bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_22f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>7d0312df1b1ee51080feea02f54bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>0f0352df1b1ee51080feea02f54bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_22f0b88cc3c632002841b63b12d3aeff</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>f50312df1b1ee51080feea02f54bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>4b0352df1b1ee51080feea02f54bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_22f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3d0312df1b1ee51080feea02f54bcb51</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>350312df1b1ee51080feea02f54bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3d0312df1b1ee51080feea02f54bcb51"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d0312df1b1ee51080feea02f54bcb51"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:27</sys_created_on>
+        <sys_id>5a8d6ad61ba0f510fdd8848ce54bcb34</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:51:52</sys_updated_on>
+        <ui_id>26c1ecb7-916e-46fc-beee-a1d439114931</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a8d6ad61ba0f510fdd8848ce54bcb34"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a8d6ad61ba0f510fdd8848ce54bcb34</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:27</sys_created_on>
+        <sys_id>128d6ad61ba0f510fdd8848ce54bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:27</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a8d6ad61ba0f510fdd8848ce54bcb34</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>c13a5ee21bfc7510fdd8848ce54bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a8d6ad61ba0f510fdd8848ce54bcb34"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>8d3a5ee21bfc7510fdd8848ce54bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:27</sys_created_on>
+        <sys_id>9e8d6ad61ba0f510fdd8848ce54bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>c93a5ee21bfc7510fdd8848ce54bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:27</sys_created_on>
+        <sys_id>168d6ad61ba0f510fdd8848ce54bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:09</sys_created_on>
+        <sys_id>413a5ee21bfc7510fdd8848ce54bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}^state=1^stage=request_approved^short_description={{Service Catalog_1.request_item.cat_item.name}}^assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5a8d6ad61ba0f510fdd8848ce54bcb34</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:27</sys_created_on>
+        <sys_id>da8d6ad61ba0f510fdd8848ce54bcb36</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-24 15:24:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}^state=1^stage=request_approved^short_description={{Service Catalog_1.request_item.cat_item.name}}^assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a8d6ad61ba0f510fdd8848ce54bcb34"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a8d6ad61ba0f510fdd8848ce54bcb34"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>7d0312df1b1ee51080feea02f54bcb5b</sys_id>
+        <sys_mod_count>112</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:51:52</sys_updated_on>
+        <ui_id>490bf450-99dd-43cf-adf1-0abf1fc54054</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7d0312df1b1ee51080feea02f54bcb5b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>3d0312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>470352df1b1ee51080feea02f54bcb42</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 04:04:27</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">4c29401473081300612c273ffff6a738</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>790312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:16</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,6bf8390c1b75e51080feea02f54bcbd8:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,f739314c1b75e51080feea02f54bcb2d:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a1ef61001b75e51080feea02f54bcb2d,1c6ab61a1b92e110fdd8848ce54bcb75,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,70a8c7961bd2e110fdd8848ce54bcb93,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,ea01039e1b92e110fdd8848ce54bcb09,ea329e511b35e910fdd8848ce54bcb36,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,33103d401b75e51080feea02f54bcbf8,903df69a1b92e110fdd8848ce54bcb70,6670fd401b75e51080feea02f54bcb88,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,5e02c2111bf1e910fdd8848ce54bcb44,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,e033c25f1bdae51080feea02f54bcbdf:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new,b3e93cb91bd3a510fdd8848ce54bcb9c:item_option_new,f4e4df631b3935d080feea02f54bcb0b:item_option_new,9535df271b3935d080feea02f54bcb65:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>830352df1b1ee51080feea02f54bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Item">d829401473081300612c273ffff6a751</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>cf0352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-06-21 21:48:34</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,6bf8390c1b75e51080feea02f54bcbd8:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,f739314c1b75e51080feea02f54bcb2d:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a1ef61001b75e51080feea02f54bcb2d,1c6ab61a1b92e110fdd8848ce54bcb75,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,70a8c7961bd2e110fdd8848ce54bcb93,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,ea01039e1b92e110fdd8848ce54bcb09,ea329e511b35e910fdd8848ce54bcb36,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,33103d401b75e51080feea02f54bcbf8,903df69a1b92e110fdd8848ce54bcb70,6670fd401b75e51080feea02f54bcb88,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,5e02c2111bf1e910fdd8848ce54bcb44:item_option_new,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,e033c25f1bdae51080feea02f54bcbdf:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new,b3e93cb91bd3a510fdd8848ce54bcb9c:item_option_new</value>
+        <variable display_value="Catalog Variables">4e8a8c1473081300612c273ffff6a775</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7d0312df1b1ee51080feea02f54bcb5b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>fd0312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 04:04:36</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7d0312df1b1ee51080feea02f54bcb5b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>f50312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-21 16:03:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}^contact_type=self-service^description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>4f0352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f597c41073081300612c273ffff6a767</table>
+        <value>assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}^contact_type=self-service^description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>710312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>c70352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f597c41073081300612c273ffff6a767</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>bd0312df1b1ee51080feea02f54bcb5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-21 04:12:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item.cat_item.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>070352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f597c41073081300612c273ffff6a767</table>
+        <value>{{Service Catalog_1.request_item.cat_item.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>f90312df1b1ee51080feea02f54bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>430352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f597c41073081300612c273ffff6a767</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>350312df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>7d0312df1b1ee51080feea02f54bcb5b</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:22</sys_created_on>
+        <sys_id>8b0352df1b1ee51080feea02f54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f597c41073081300612c273ffff6a767</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d0312df1b1ee51080feea02f54bcb5b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d0312df1b1ee51080feea02f54bcb5b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <order>5</order>
+        <parent_ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>9c9456271b387910fdd8848ce54bcb5a</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-03-20 18:51:52</sys_updated_on>
+        <ui_id>f5bd0373-ad48-4098-bbe2-1e9095c409ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c9456271b387910fdd8848ce54bcb5a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c9456271b387910fdd8848ce54bcb5a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>109456271b387910fdd8848ce54bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <value>state=4^stage=Request Cancelled</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c9456271b387910fdd8848ce54bcb5a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>d09456271b387910fdd8848ce54bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9c9456271b387910fdd8848ce54bcb5a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9c9456271b387910fdd8848ce54bcb5a</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>9c9456271b387910fdd8848ce54bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9c9456271b387910fdd8848ce54bcb5a</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>189456271b387910fdd8848ce54bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9c9456271b387910fdd8848ce54bcb5a</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>d89456271b387910fdd8848ce54bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c9456271b387910fdd8848ce54bcb5a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c9456271b387910fdd8848ce54bcb5a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN1c9456271b387910fdd8848ce54bcb5d,dc9456271b387910fdd8848ce54bcb51"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">589456271b387910fdd8848ce54bcb5d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>1c9456271b387910fdd8848ce54bcb5d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <ui_id>8ddae6ce-ff50-4d90-9172-ca50dcbda3da</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1c9456271b387910fdd8848ce54bcb5d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c9456271b387910fdd8848ce54bcb5d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c9456271b387910fdd8848ce54bcb5d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">149456271b387910fdd8848ce54bcb51</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>dc9456271b387910fdd8848ce54bcb51</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dc9456271b387910fdd8848ce54bcb51"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dc9456271b387910fdd8848ce54bcb51</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>d09456271b387910fdd8848ce54bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <value>State is closed Incomplete or closed Skipped</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc9456271b387910fdd8848ce54bcb51"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dc9456271b387910fdd8848ce54bcb51</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>509456271b387910fdd8848ce54bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state}}=4^NQ{{490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state}}=7</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>dc9456271b387910fdd8848ce54bcb51</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:51:27</sys_created_on>
+        <sys_id>989456271b387910fdd8848ce54bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:51:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dc9456271b387910fdd8848ce54bcb51"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc9456271b387910fdd8848ce54bcb51"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT IN790312df1b1ee51080feea02f54bcb49,fd0312df1b1ee51080feea02f54bcb43"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>790312df1b1ee51080feea02f54bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:17</sys_created_on>
+        <sys_id>fd0312df1b1ee51080feea02f54bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d77c0e971b1ee51080feea02f54bcb8e"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ows_meet</internal_name>
+        <label_cache>[{"name":"490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state","label":"3 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"used":false,"label":"Open","rawLabel":"Open","selected":false,"missing":false,"reference":false,"image":"","value":"1","parameters":{"name":"task"}},{"used":false,"label":"Pending","rawLabel":"Pending","selected":false,"missing":false,"reference":false,"image":"","value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","rawLabel":"Work in Progress","selected":false,"missing":false,"reference":false,"image":"","value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"reference":false,"image":"","value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"reference":false,"image":"","value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"reference":false,"image":"","value":"7","parameters":{"name":"task"}}]},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments","label":"1 - Get Catalog Variables➛additional_comments","reference":"","reference_display":"additional_comments","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item.cat_item.name","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comment","label":"1➛additional_comment","reference":"","reference_display":"additional_comment","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"8225e2a3-51e6-40af-8c5d-761fa024e83a.room_location","label":"1 - Get Catalog Variables➛room_location","reference":"x_g_nioa_ows_meet_meet_cat_subcat","reference_display":"Meet cat-subcat","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0}],"attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
+        <master>true</master>
+        <name>OWS MEET</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="OWS MEET">d77c0e971b1ee51080feea02f54bcb8e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>170352df1b1ee51080feea02f54bcb93</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_variable_value action="delete_multiple" query="document_key=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=170352df1b1ee51080feea02f54bcb93^sys_idNOT INaf0392df1b1ee51080feea02f54bcb71"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>af0392df1b1ee51080feea02f54bcb71</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=af0392df1b1ee51080feea02f54bcb71"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=170352df1b1ee51080feea02f54bcb93^sys_idNOT IN21b49a271b387910fdd8848ce54bcbcd,25b49a271b387910fdd8848ce54bcbcd,29b49a271b387910fdd8848ce54bcbcd,a1b49a271b387910fdd8848ce54bcbcd,a5b49a271b387910fdd8848ce54bcbcd,a9b49a271b387910fdd8848ce54bcbcc"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>0</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Request Approved</label>
+        <order>2</order>
+        <stage_id>17ff3e98-37ca-49d8-ac4c-e47aee1bc7b4</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>21b49a271b387910fdd8848ce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>request_approved</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>4</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Request Cancelled</label>
+        <order>0</order>
+        <stage_id>b8922ed5-c22d-4fa0-bd7a-d57f991eca0d</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>25b49a271b387910fdd8848ce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>Request Cancelled</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Waiting for Approval</label>
+        <order>3</order>
+        <stage_id>14a42152-00bc-45b3-8c9a-7c6f7f3dcf5f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>29b49a271b387910fdd8848ce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>waiting_for_approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>2</component_indexes>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Fulfillment</label>
+        <order>4</order>
+        <stage_id>0a41cde8-9cae-4fe9-a3ae-fa355e75b8e0</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>a1b49a271b387910fdd8848ce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>fulfillment</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Completed</label>
+        <order>1</order>
+        <stage_id>ba28ed65-8a6b-4c08-a8d3-55faf30a3272</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>a5b49a271b387910fdd8848ce54bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>complete</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <label>Delivery</label>
+        <order>5</order>
+        <stage_id>b827a7e2-b76f-447f-a023-39ceb843d1ee</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>a9b49a271b387910fdd8848ce54bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <type>standard</type>
+        <value>delivery</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=170352df1b1ee51080feea02f54bcb93^sys_idNOT IN570352df1b1ee51080feea02f54bcb94"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>170352df1b1ee51080feea02f54bcb93</id>
+        <name>OWS MEET</name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>570352df1b1ee51080feea02f54bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=570352df1b1ee51080feea02f54bcb94"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=170352df1b1ee51080feea02f54bcb93^sys_idNOT IN970392df1b1ee51080feea02f54bcb48,db0352df1b1ee51080feea02f54bcb95"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</model>
+        <model_id>170352df1b1ee51080feea02f54bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>970392df1b1ee51080feea02f54bcb48</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</model>
+        <model_id>170352df1b1ee51080feea02f54bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>db0352df1b1ee51080feea02f54bcb95</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=170352df1b1ee51080feea02f54bcb93^sys_idNOT IN29b49a271b387910fdd8848ce54bcbc1,6f0392df1b1ee51080feea02f54bcb6e,753adee21bfc7510fdd8848ce54bcb75,930392df1b1ee51080feea02f54bcb5d,cd9daad61ba0f510fdd8848ce54bcbd0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <order>5</order>
+        <parent_ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>29b49a271b387910fdd8848ce54bcbc1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>f5bd0373-ad48-4098-bbe2-1e9095c409ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=29b49a271b387910fdd8848ce54bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>29b49a271b387910fdd8848ce54bcbc1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>25b49a271b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>29b49a271b387910fdd8848ce54bcbc1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>61b49a271b387910fdd8848ce54bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <value>state=4^stage=Request Cancelled</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=29b49a271b387910fdd8848ce54bcbc1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>29b49a271b387910fdd8848ce54bcbc1</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>edb49a271b387910fdd8848ce54bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>29b49a271b387910fdd8848ce54bcbc1</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>69b49a271b387910fdd8848ce54bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>29b49a271b387910fdd8848ce54bcbc1</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>2db49a271b387910fdd8848ce54bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=29b49a271b387910fdd8848ce54bcbc1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=29b49a271b387910fdd8848ce54bcbc1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>6f0392df1b1ee51080feea02f54bcb6e</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>490bf450-99dd-43cf-adf1-0abf1fc54054</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f0392df1b1ee51080feea02f54bcb6e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f0392df1b1ee51080feea02f54bcb6e</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>270392df1b1ee51080feea02f54bcb71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:27</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,6bf8390c1b75e51080feea02f54bcbd8:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,f739314c1b75e51080feea02f54bcb2d:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a1ef61001b75e51080feea02f54bcb2d,1c6ab61a1b92e110fdd8848ce54bcb75,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,70a8c7961bd2e110fdd8848ce54bcb93,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,ea01039e1b92e110fdd8848ce54bcb09,ea329e511b35e910fdd8848ce54bcb36,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,33103d401b75e51080feea02f54bcbf8,903df69a1b92e110fdd8848ce54bcb70,6670fd401b75e51080feea02f54bcb88,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,5e02c2111bf1e910fdd8848ce54bcb44,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,e033c25f1bdae51080feea02f54bcbdf:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new,b3e93cb91bd3a510fdd8848ce54bcb9c:item_option_new,f4e4df631b3935d080feea02f54bcb0b:item_option_new,9535df271b3935d080feea02f54bcb65:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f0392df1b1ee51080feea02f54bcb6e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>ab0392df1b1ee51080feea02f54bcb71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 04:04:39</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f0392df1b1ee51080feea02f54bcb6e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>e70392df1b1ee51080feea02f54bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:24</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f0392df1b1ee51080feea02f54bcb6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>6f0392df1b1ee51080feea02f54bcb6e</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>a30392df1b1ee51080feea02f54bcb71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-21 16:03:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}^contact_type=self-service^description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>6f0392df1b1ee51080feea02f54bcb6e</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>2f0392df1b1ee51080feea02f54bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>6f0392df1b1ee51080feea02f54bcb6e</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>6b0392df1b1ee51080feea02f54bcb70</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-21 04:12:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item.cat_item.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>6f0392df1b1ee51080feea02f54bcb6e</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>a70392df1b1ee51080feea02f54bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>6f0392df1b1ee51080feea02f54bcb6e</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:24</sys_created_on>
+        <sys_id>ef0392df1b1ee51080feea02f54bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f0392df1b1ee51080feea02f54bcb6e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6f0392df1b1ee51080feea02f54bcb6e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>753adee21bfc7510fdd8848ce54bcb75</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>04abf897-4ae7-42bc-9d62-aa4ec4ec2f68</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=753adee21bfc7510fdd8848ce54bcb75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>753adee21bfc7510fdd8848ce54bcb75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>25b49a271b387910fdd8848ce54bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <value>state=3^stage=complete</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>753adee21bfc7510fdd8848ce54bcb75</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>713adee21bfc7510fdd8848ce54bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>753adee21bfc7510fdd8848ce54bcb75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>bd3adee21bfc7510fdd8848ce54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <value>state=3^stage=complete</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>753adee21bfc7510fdd8848ce54bcb75</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>e5b49a271b387910fdd8848ce54bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=753adee21bfc7510fdd8848ce54bcb75"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>793adee21bfc7510fdd8848ce54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>a1b49a271b387910fdd8848ce54bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>b53adee21bfc7510fdd8848ce54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>2db49a271b387910fdd8848ce54bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>3d3adee21bfc7510fdd8848ce54bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>753adee21bfc7510fdd8848ce54bcb75</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>edb49a271b387910fdd8848ce54bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=753adee21bfc7510fdd8848ce54bcb75"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=753adee21bfc7510fdd8848ce54bcb75"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>930392df1b1ee51080feea02f54bcb5d</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>8225e2a3-51e6-40af-8c5d-761fa024e83a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=930392df1b1ee51080feea02f54bcb5d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930392df1b1ee51080feea02f54bcb5d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>9f0392df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <value>fdc27c801b71e51080feea02f54bcb3f</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>930392df1b1ee51080feea02f54bcb5d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>db0392df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:27</sys_updated_on>
+        <value>0d3afe1e1bc66c10fdd8848ce54bcb44:item_option_new,32aa765e1bc66c10fdd8848ce54bcb8e:item_option_new,5a4bfe5e1bc66c10fdd8848ce54bcb37:item_option_new,f4bbbe5e1bc66c10fdd8848ce54bcb50:item_option_new,c1dbbe5e1bc66c10fdd8848ce54bcb56:item_option_new,531c7a9e1bc66c10fdd8848ce54bcb21:item_option_new,9c0b1f301b16e850fdd8848ce54bcb28:item_option_new,5d0af0c81b71e51080feea02f54bcb06:item_option_new,4a5634841b71e51080feea02f54bcbb7:item_option_new,ac6dedd91b71e910fdd8848ce54bcb11:item_option_new,29adadd91b71e910fdd8848ce54bcb54:item_option_new,0fdd651d1b71e910fdd8848ce54bcbd6:item_option_new,676ea9d91b71e910fdd8848ce54bcbfa:item_option_new,cb2e2dd91b71e910fdd8848ce54bcbbc:item_option_new,d24ee11d1b71e910fdd8848ce54bcb7c:item_option_new,91cea91d1b71e910fdd8848ce54bcb7b:item_option_new,b83fed1d1b71e910fdd8848ce54bcbf3:item_option_new,cb69dd481bf1e51080feea02f54bcb73:item_option_new,68b9dd481bf1e51080feea02f54bcbed:item_option_new,644bd90c1bf1e51080feea02f54bcb8b:item_option_new,a0fb218c1b35e51080feea02f54bcb70:item_option_new,541c994c1bf1e51080feea02f54bcb58:item_option_new,a455ead21b52e110fdd8848ce54bcbc0:item_option_new,b55e19cc1bf1e51080feea02f54bcb94:item_option_new,9fab6d4c1b35e51080feea02f54bcbd0:item_option_new,0ceb218c1b35e51080feea02f54bcb26:item_option_new,360c658c1b35e51080feea02f54bcbb2:item_option_new,2ce666561b52e110fdd8848ce54bcbce:item_option_new,106ce1c81b35e51080feea02f54bcba2:item_option_new,77ba969a1b12e110fdd8848ce54bcb8a:item_option_new,1f206ade1b12e110fdd8848ce54bcb59:item_option_new,522235111bb1e910fdd8848ce54bcbc2:item_option_new,3cafa9001b75e51080feea02f54bcba8:item_option_new,a46135801b75e51080feea02f54bcbbf:item_option_new,45a1b9401b75e51080feea02f54bcb7e:item_option_new,d4d1f1041b75e51080feea02f54bcb51:item_option_new,84023d801b75e51080feea02f54bcbc1:item_option_new,6473bd041b75e51080feea02f54bcb85:item_option_new,7f41c29d1bb1e910fdd8848ce54bcb7d:item_option_new,d1b1cedd1bb1e910fdd8848ce54bcb9a:item_option_new,eb37f5481b75e51080feea02f54bcb57:item_option_new,7246b1081b75e51080feea02f54bcbb7:item_option_new,c2773d881b75e51080feea02f54bcb4f:item_option_new,12408a5b1bdae51080feea02f54bcb85:item_option_new,987b23281b7d2910fdd8848ce54bcb4c:item_option_new,95cbda3d1beae910fdd8848ce54bcbda:item_option_new,2942f9c01b75e51080feea02f54bcb07:item_option_new,98f24b121bd2e110fdd8848ce54bcb0d:item_option_new,8bc04f9e1b92e110fdd8848ce54bcb66:item_option_new,79cb9fd71b9fe910fdd8848ce54bcbc9:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=930392df1b1ee51080feea02f54bcb5d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>930392df1b1ee51080feea02f54bcb5d</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>d30392df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>930392df1b1ee51080feea02f54bcb5d</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>5b0392df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>930392df1b1ee51080feea02f54bcb5d</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>970392df1b1ee51080feea02f54bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=930392df1b1ee51080feea02f54bcb5d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=930392df1b1ee51080feea02f54bcb5d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:39</sys_created_on>
+        <sys_id>cd9daad61ba0f510fdd8848ce54bcbd0</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>26c1ecb7-916e-46fc-beee-a1d439114931</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd9daad61ba0f510fdd8848ce54bcbd0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cd9daad61ba0f510fdd8848ce54bcbd0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:39</sys_created_on>
+        <sys_id>099daad61ba0f510fdd8848ce54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:39</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cd9daad61ba0f510fdd8848ce54bcbd0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>753adee21bfc7510fdd8848ce54bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cd9daad61ba0f510fdd8848ce54bcbd0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>313adee21bfc7510fdd8848ce54bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:39</sys_created_on>
+        <sys_id>859daad61ba0f510fdd8848ce54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>7d3adee21bfc7510fdd8848ce54bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:39</sys_created_on>
+        <sys_id>019daad61ba0f510fdd8848ce54bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:12:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-08-24 20:42:12</sys_created_on>
+        <sys_id>f13adee21bfc7510fdd8848ce54bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-24 20:42:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}^state=1^stage=request_approved^short_description={{Service Catalog_1.request_item.cat_item.name}}^assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cd9daad61ba0f510fdd8848ce54bcbd0</id>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:12:39</sys_created_on>
+        <sys_id>c19daad61ba0f510fdd8848ce54bcbd2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-24 15:24:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>description={{8225e2a3-51e6-40af-8c5d-761fa024e83a.additional_comments}}^state=1^stage=request_approved^short_description={{Service Catalog_1.request_item.cat_item.name}}^assignment_group={"display":"OWS Meet","value":"d8bd0a5b1b1ee51080feea02f54bcb69","sys_id":"d8bd0a5b1b1ee51080feea02f54bcb69"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd9daad61ba0f510fdd8848ce54bcbd0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd9daad61ba0f510fdd8848ce54bcbd0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=170352df1b1ee51080feea02f54bcb93^sys_idNOT IN65b49a271b387910fdd8848ce54bcbca,edb49a271b387910fdd8848ce54bcbc5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">589456271b387910fdd8848ce54bcb5d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>65b49a271b387910fdd8848ce54bcbca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>8ddae6ce-ff50-4d90-9172-ca50dcbda3da</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=65b49a271b387910fdd8848ce54bcbca"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=65b49a271b387910fdd8848ce54bcbca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=65b49a271b387910fdd8848ce54bcbca"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">149456271b387910fdd8848ce54bcb51</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="OWS MEET">170352df1b1ee51080feea02f54bcb93</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>edb49a271b387910fdd8848ce54bcbc5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:28</sys_updated_on>
+        <ui_id>6b74ae36-56bf-4ea3-bec9-98f778ca5575</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=edb49a271b387910fdd8848ce54bcbc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>edb49a271b387910fdd8848ce54bcbc5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>6db49a271b387910fdd8848ce54bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <value>State is closed Incomplete or closed Skipped</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=edb49a271b387910fdd8848ce54bcbc5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>edb49a271b387910fdd8848ce54bcbc5</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>e9b49a271b387910fdd8848ce54bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state}}=4^NQ{{490bf450-99dd-43cf-adf1-0abf1fc54054.Catalog Task.state}}=7</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>edb49a271b387910fdd8848ce54bcbc5</id>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-08-27 22:52:05</sys_created_on>
+        <sys_id>29b49a271b387910fdd8848ce54bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-08-27 22:52:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=edb49a271b387910fdd8848ce54bcbc5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=edb49a271b387910fdd8848ce54bcbc5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=170352df1b1ee51080feea02f54bcb93"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93^sys_idNOT IN5f0392df1b1ee51080feea02f54bcb44,df0392df1b1ee51080feea02f54bcb4c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>5f0392df1b1ee51080feea02f54bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:23</sys_created_on>
+        <sys_id>df0392df1b1ee51080feea02f54bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 21:29:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_170352df1b1ee51080feea02f54bcb93"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_170352df1b1ee51080feea02f54bcb93"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_170352df1b1ee51080feea02f54bcb93"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d77c0e971b1ee51080feea02f54bcb8e</sys_id>
+        <latest_snapshot>170352df1b1ee51080feea02f54bcb93</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch9-hotfix1b-01-16-2024_01-30-2024_1048.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d77c0e971b1ee51080feea02f54bcb8e^sys_idNOT INbb0392df1b1ee51080feea02f54bcbca"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bb0392df1b1ee51080feea02f54bcbca","name":"plan","plan_signature":null}}</plan>
+        <plan_id>d77c0e971b1ee51080feea02f54bcb8e</plan_id>
+        <snapshot>cf35923987c5ce506cbb42e60cbb3510</snapshot>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 21:29:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb0392df1b1ee51080feea02f54bcbca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-18 03:22:30</sys_updated_on>
+        <trigger display_value="">f30392df1b1ee51080feea02f54bcbca</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d77c0e971b1ee51080feea02f54bcb8e"/>
+</record_update>

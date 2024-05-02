@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Room configuration">a1ef61001b75e51080feea02f54bcb2d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 21:41:56</sys_created_on>
+        <sys_id>411972d61b92e110fdd8848ce54bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U-Shape</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>question_choice_411972d61b92e110fdd8848ce54bcbdf</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 21:41:56</sys_updated_on>
+        <text>U-Shape</text>
+        <value>U-Shape</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=411972d61b92e110fdd8848ce54bcbdf"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">a56223aa1b326d10fdd8848ce54bcb68</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:52:26</sys_created_on>
+        <sys_id>44826b6a1b326d10fdd8848ce54bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Poster Printing Services Service Request.SNC External</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_44826b6a1b326d10fdd8848ce54bcb9b</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:52:26</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_44826b6a1b326d10fdd8848ce54bcb9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">a56223aa1b326d10fdd8848ce54bcb68</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-05-17 15:52:26</sys_created_on><sys_id>44826b6a1b326d10fdd8848ce54bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Poster Printing Services Service Request.SNC External</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_44826b6a1b326d10fdd8848ce54bcb9b</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-05-17 15:52:26</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1293137090</payload_hash>
+        <record_name>Poster Printing Services Service Request.SNC External</record_name>
+        <reverted_from/>
+        <source>00c43d031b222110fdd8848ce54bcb7e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>pyarraguntla</sys_created_by>
+        <sys_created_on>2023-05-06 10:54:12</sys_created_on>
+        <sys_id>e163e3ea1b326d10fdd8848ce54bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187f0b2a4200000000</sys_recorded_at>
+        <sys_updated_by>pyarraguntla</sys_updated_by>
+        <sys_updated_on>2023-08-04 16:31:08</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>a163e3ead5326d1086a325c589814fba</update_guid>
+        <update_guid_history>a163e3ead5326d1086a325c589814fba:-1293137090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a963e3ea1b326d10fdd8848ce54bcbbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:56:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>1231f68a12e9410a93a84ea564dfb5c9</sys_id>
+        <sys_metadata>44826b6a1b326d10fdd8848ce54bcb9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Poster Printing Services Service Request.SNC External</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_44826b6a1b326d10fdd8848ce54bcb9b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_44826b6a1b326d10fdd8848ce54bcb9b">e163e3ea1b326d10fdd8848ce54bcbba</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:56:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

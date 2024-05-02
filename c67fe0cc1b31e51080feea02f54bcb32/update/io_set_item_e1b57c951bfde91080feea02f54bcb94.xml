@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Meeting A/V Support">6fa47c951bfde91080feea02f54bcba0</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:02:20</sys_created_on>
+        <sys_id>e1b57c951bfde91080feea02f54bcb94</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requested By Requested for .Request A/V Support</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_e1b57c951bfde91080feea02f54bcb94</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:02:20</sys_updated_on>
+        <variable_set display_value="Requested By Requested for ">11f9325a1bc66c10fdd8848ce54bcb17</variable_set>
+    </io_set_item>
+</record_update>

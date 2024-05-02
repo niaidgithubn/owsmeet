@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>1000</order>
+        <published_ref/>
+        <question display_value="Event type">68b9dd481bf1e51080feea02f54bcbed</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 18:32:10</sys_created_on>
+        <sys_id>ceda59c81bf1e51080feea02f54bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staff Meeting</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>question_choice_ceda59c81bf1e51080feea02f54bcbed</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 18:32:10</sys_updated_on>
+        <text>Staff Meeting</text>
+        <value>staff_meeting</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ceda59c81bf1e51080feea02f54bcbed"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>ceda59c81bf1e51080feea02f54bcbed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:34:32</sys_created_on>
+        <sys_id>911dfc511b312d1080feea02f54bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:34:32</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>ceda59c81bf1e51080feea02f54bcbed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:34:32</sys_created_on>
+        <sys_id>191dfc511b312d1080feea02f54bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:34:32</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

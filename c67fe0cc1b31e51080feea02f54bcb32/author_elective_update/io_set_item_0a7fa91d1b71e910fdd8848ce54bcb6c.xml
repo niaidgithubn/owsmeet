@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>5000</order>
+        <sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 17:14:41</sys_created_on>
+        <sys_id>0a7fa91d1b71e910fdd8848ce54bcb6c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Training Information.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_0a7fa91d1b71e910fdd8848ce54bcb6c</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 17:15:05</sys_updated_on>
+        <variable_set display_value="Training Information">df2de9d91b71e910fdd8848ce54bcb75</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>io_set_item_0a7fa91d1b71e910fdd8848ce54bcb6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>5000</order><sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-24 17:14:41</sys_created_on><sys_id>0a7fa91d1b71e910fdd8848ce54bcb6c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Training Information.Room Reservation</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>io_set_item_0a7fa91d1b71e910fdd8848ce54bcb6c</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-24 17:15:05</sys_updated_on><variable_set display_value="Training Information">df2de9d91b71e910fdd8848ce54bcb75</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-716100696</payload_hash>
+        <record_name>Training Information.Room Reservation</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 17:15:05</sys_created_on>
+        <sys_id>338f219d1b71e910fdd8848ce54bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187149de69e0000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 17:15:05</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>778f219d5b71e910d0a4e1a432a42c77</update_guid>
+        <update_guid_history>778f219d5b71e910d0a4e1a432a42c77:-716100696,8e7fad5d6f71e910d636c2ce12734de9:1280387416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a6b96e1a1b52e110fdd8848ce54bcb88</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 20:34:32</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>2d500f1e2c434788a7422fed887dd610</sys_id>
+        <sys_metadata>0a7fa91d1b71e910fdd8848ce54bcb6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Information.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>io_set_item_0a7fa91d1b71e910fdd8848ce54bcb6c</sys_update_name>
+        <sys_update_version display_value="io_set_item_0a7fa91d1b71e910fdd8848ce54bcb6c">338f219d1b71e910fdd8848ce54bcb78</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:34:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

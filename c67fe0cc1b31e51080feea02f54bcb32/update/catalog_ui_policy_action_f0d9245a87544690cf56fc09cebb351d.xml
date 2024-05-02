@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Parking – 5601 Fishers Lane">6ff873401bb36910fdd8848ce54bcbfa</catalog_item>
+        <catalog_variable>IO:f0f3eccb1bd2b5109446eb9ee54bcb09</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>ramamurthyu2</sys_created_by>
+        <sys_created_on>2024-02-13 17:32:39</sys_created_on>
+        <sys_id>f0d9245a87544690cf56fc09cebb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nih_badge_id</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f0d9245a87544690cf56fc09cebb351d</sys_update_name>
+        <sys_updated_by>ramamurthyu2</sys_updated_by>
+        <sys_updated_on>2024-02-13 17:32:39</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Making fields mandatory">d4b9205a87544690cf56fc09cebb359f</ui_policy>
+        <variable>nih_badge_id</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>vehicle_s_details</internal_name>
+        <layout>2down</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-06-30 18:59:21</sys_created_on>
+        <sys_id>c0e13ebc1bfbe910fdd8848ce54bcb40</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Vehicle(s) details</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>item_option_new_set_c0e13ebc1bfbe910fdd8848ce54bcb40</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:44:02</sys_updated_on>
+        <title>Vehicle(s) details</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

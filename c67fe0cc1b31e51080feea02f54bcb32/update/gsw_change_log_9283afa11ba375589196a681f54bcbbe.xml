@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-01-05 16:21:18</change_date>
+        <changed_by display_value="Palgun Yarraguntla">70b9967c1b643c50b731ed3be54bcb3b</changed_by>
+        <content display_value="Configure the connection">554dce470fcd00107e47409dc4767e9e</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>yarraguntlas2</sys_created_by>
+        <sys_created_on>2024-01-05 16:21:18</sys_created_on>
+        <sys_id>9283afa11ba375589196a681f54bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-01-05 16:21:18</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>gsw_change_log_9283afa11ba375589196a681f54bcbbe</sys_update_name>
+        <sys_updated_by>yarraguntlas2</sys_updated_by>
+        <sys_updated_on>2024-01-05 16:21:18</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

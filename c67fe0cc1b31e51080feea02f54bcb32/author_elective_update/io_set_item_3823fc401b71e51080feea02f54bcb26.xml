@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Meet request">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:38:41</sys_created_on>
+        <sys_id>3823fc401b71e51080feea02f54bcb26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requested By/For.Meet request</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_3823fc401b71e51080feea02f54bcb26</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:38:41</sys_updated_on>
+        <variable_set display_value="Requested By/For">1a7c17a31b33c110fdd8848ce54bcb31</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>io_set_item_3823fc401b71e51080feea02f54bcb26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Meet request">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-20 15:38:41</sys_created_on><sys_id>3823fc401b71e51080feea02f54bcb26</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Requested By/For.Meet request</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>io_set_item_3823fc401b71e51080feea02f54bcb26</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-20 15:38:41</sys_updated_on><variable_set display_value="Requested By/For">1a7c17a31b33c110fdd8848ce54bcb31</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-456532761</payload_hash>
+        <record_name>Requested By/For.Meet request</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:38:41</sys_created_on>
+        <sys_id>b423f0c01b71e51080feea02f54bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186ffac36a50000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:38:41</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>bc23f0c0a371e5106b1face294984a35</update_guid>
+        <update_guid_history>bc23f0c0a371e5106b1face294984a35:-456532761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0db878481b71e51080feea02f54bcb7a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 16:03:00</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>853d51a4960f4231b81d832bcf284889</sys_id>
+        <sys_metadata>3823fc401b71e51080feea02f54bcb26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested By/For.Meet request</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>io_set_item_3823fc401b71e51080feea02f54bcb26</sys_update_name>
+        <sys_update_version display_value="io_set_item_3823fc401b71e51080feea02f54bcb26">b423f0c01b71e51080feea02f54bcb36</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 16:03:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

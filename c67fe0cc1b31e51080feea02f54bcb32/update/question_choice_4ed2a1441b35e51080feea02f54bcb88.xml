@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>1000</order>
+        <published_ref/>
+        <question display_value="Alternate room">b55e19cc1bf1e51080feea02f54bcb94</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 19:07:06</sys_created_on>
+        <sys_id>4ed2a1441b35e51080feea02f54bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Garden Room 2A/B (LD30AB)</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>question_choice_4ed2a1441b35e51080feea02f54bcb88</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 19:07:06</sys_updated_on>
+        <text>Garden Room 2A/B (LD30AB)</text>
+        <value>garden_room_2abld30ab</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=4ed2a1441b35e51080feea02f54bcb88"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>4ed2a1441b35e51080feea02f54bcb88</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:34:28</sys_created_on>
+        <sys_id>581dbc511b312d1080feea02f54bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:34:28</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>4ed2a1441b35e51080feea02f54bcb88</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:34:28</sys_created_on>
+        <sys_id>dc1dbc511b312d1080feea02f54bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:34:28</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

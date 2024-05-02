@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Niaid Scientific activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.u_cmdb_ci_niaid_scientific_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-07-03 19:48:47</sys_created_on>
+        <sys_id>505b96bd1bf7ed10fdd8848ce54bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.u_cmdb_ci_niaid_scientific_activity.fields</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sys_properties_505b96bd1bf7ed10fdd8848ce54bcb89</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-07-03 19:48:47</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=505b96bd1bf7ed10fdd8848ce54bcb89"/>
+</record_update>

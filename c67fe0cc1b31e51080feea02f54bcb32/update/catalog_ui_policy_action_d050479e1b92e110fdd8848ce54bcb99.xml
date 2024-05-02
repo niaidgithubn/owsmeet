@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:84023d801b75e51080feea02f54bcbc1</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 22:13:27</sys_created_on>
+        <sys_id>d050479e1b92e110fdd8848ce54bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>outside_sponsor_name_s</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d050479e1b92e110fdd8848ce54bcb99</sys_update_name>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-10-30 14:51:09</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Outside sponsor name">d6200f5e1b92e110fdd8848ce54bcb6a</ui_policy>
+        <variable>outside_sponsor_name_s</variable>
+        <variable_set display_value="Attendees Information">2301f5dd1b71e910fdd8848ce54bcb07</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

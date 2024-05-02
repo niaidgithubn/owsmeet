@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">3748b2871b131010a084a64ce54bcb51</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:33:13</sys_created_on>
+        <sys_id>7c90268c1b20b1d0b731ed3be54bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:33:13</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

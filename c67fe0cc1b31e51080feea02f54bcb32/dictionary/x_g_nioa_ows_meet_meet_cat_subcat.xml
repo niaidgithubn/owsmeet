@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2832f8401b71e51080feea02f54bcbd3" label="Meet cat-subcat" max_length="40" name="x_g_nioa_ows_meet_meet_cat_subcat" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="category" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Request type" max_length="40" name="request_type" type="string"/>
+        <element label="SLA" max_length="40" name="sla" type="glide_duration"/>
+    </element>
+</database>

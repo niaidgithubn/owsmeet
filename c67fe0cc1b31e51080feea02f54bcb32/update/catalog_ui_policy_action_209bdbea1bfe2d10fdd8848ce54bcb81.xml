@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Meeting A/V Support">6fa47c951bfde91080feea02f54bcba0</catalog_item>
+        <catalog_variable>IO:7246b1081b75e51080feea02f54bcbb7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:22:10</sys_created_on>
+        <sys_id>209bdbea1bfe2d10fdd8848ce54bcb81</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>please_indicate_your_av_needs</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_209bdbea1bfe2d10fdd8848ce54bcb81</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-06-26 18:34:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Room support need">af4b13ea1bfe2d10fdd8848ce54bcb30</ui_policy>
+        <variable>please_indicate_your_av_needs</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

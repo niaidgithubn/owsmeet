@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>6000</order>
+        <sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 13:28:12</sys_created_on>
+        <sys_id>ecabb0111b312d1080feea02f54bcb9d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Number of Anticipated Event Attendees.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_ecabb0111b312d1080feea02f54bcb9d</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 14:38:53</sys_updated_on>
+        <variable_set display_value="Number of Anticipated Event Attendees">6ad9f41d1bfde91080feea02f54bcb14</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>io_set_item_ecabb0111b312d1080feea02f54bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>6000</order><sc_cat_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-24 13:28:12</sys_created_on><sys_id>ecabb0111b312d1080feea02f54bcb9d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Number of Anticipated Event Attendees.Room Reservation</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>io_set_item_ecabb0111b312d1080feea02f54bcb9d</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-24 14:38:53</sys_updated_on><variable_set display_value="Number of Anticipated Event Attendees">6ad9f41d1bfde91080feea02f54bcb14</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1507283175</payload_hash>
+        <record_name>Number of Anticipated Event Attendees.Room Reservation</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 14:38:53</sys_created_on>
+        <sys_id>77cb4d911b712d1080feea02f54bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187140ee5710000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 14:38:53</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>3fcb4d91c5712d103222d64e0fef63f1</update_guid>
+        <update_guid_history>3fcb4d91c5712d103222d64e0fef63f1:1507283175,d00c3011f5312d1099ad8e6c7d504867:1896713152,e0abb01175312d10bd4a7ec0e5214da3:-733232784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">66b96e1a1b52e110fdd8848ce54bcb74</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 20:34:32</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>1761dcc2dec741248af0f045a6697144</sys_id>
+        <sys_metadata>ecabb0111b312d1080feea02f54bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number of Anticipated Event Attendees.Room Reservation</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>io_set_item_ecabb0111b312d1080feea02f54bcb9d</sys_update_name>
+        <sys_update_version display_value="io_set_item_ecabb0111b312d1080feea02f54bcb9d">77cb4d911b712d1080feea02f54bcbf2</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:34:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

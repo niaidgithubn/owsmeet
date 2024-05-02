@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Meet cat-subcat)">bf5270801b71e51080feea02f54bcb27</button>
+        <item_parameter display_value="Meet cat-subcat sys_id">775270801b71e51080feea02f54bcb25</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:35:20</sys_created_on>
+        <sys_id>7b5270801b71e51080feea02f54bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>775270801b71e51080feea02f54bcb25</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_7b5270801b71e51080feea02f54bcb2a</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:35:20</sys_updated_on>
+        <ui_parameter display_value="Sys ID">f75270801b71e51080feea02f54bcb28</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

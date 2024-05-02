@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value=" Poster Printing Services Service Request">a56223aa1b326d10fdd8848ce54bcb68</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:52:57</sys_created_on>
+        <sys_id>af92a76a1b326d10fdd8848ce54bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog. Poster Printing Services Service Request</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_af92a76a1b326d10fdd8848ce54bcb57</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:52:57</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>sc_cat_item_catalog_af92a76a1b326d10fdd8848ce54bcb57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value=" Poster Printing Services Service Request">a56223aa1b326d10fdd8848ce54bcb68</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-05-17 15:52:57</sys_created_on><sys_id>af92a76a1b326d10fdd8848ce54bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog. Poster Printing Services Service Request</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>sc_cat_item_catalog_af92a76a1b326d10fdd8848ce54bcb57</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-05-17 15:52:57</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2072822378</payload_hash>
+        <record_name>Service Catalog. Poster Printing Services Service Request</record_name>
+        <reverted_from/>
+        <source>74388f331b1e2510fdd8848ce54bcb44</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:52:57</sys_created_on>
+        <sys_id>af92a76a1b326d10fdd8848ce54bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882a6a1d870000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:52:57</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>a792a76a8f326d1073b03164b9ee2f5b</update_guid>
+        <update_guid_history>a792a76a8f326d1073b03164b9ee2f5b:2072822378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1163e3ea1b326d10fdd8848ce54bcb5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-05-17 15:56:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2d66a4033a42425cb9cd46e6dae80810</sys_id>
+        <sys_metadata>af92a76a1b326d10fdd8848ce54bcb57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog. Poster Printing Services Service Request</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent display_value="">a56223aa1b326d10fdd8848ce54bcb68</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_af92a76a1b326d10fdd8848ce54bcb57</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_af92a76a1b326d10fdd8848ce54bcb57">af92a76a1b326d10fdd8848ce54bcb5b</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-05-17 15:56:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

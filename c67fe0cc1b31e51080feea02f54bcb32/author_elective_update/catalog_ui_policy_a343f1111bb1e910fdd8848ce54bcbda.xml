@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:4a5634841b71e51080feea02f54bcbb7=Learning Center^EQ</catalog_conditions>
+        <catalog_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+// Learning Centre Attendee Information
+	g_form.setMandatory('number_of_in_person_attendees',false);
+	g_form.setMandatory('will_there_be_any_remote_attendees',false);
+	g_form.setMandatory('number_of_remote_attendee',false);
+	g_form.setMandatory('will_there_be_any_non_niaid_attendees',false);
+	g_form.setMandatory('number_of_non_niaid_attendees_ai',false);
+
+
+g_form.setDisplay('attendee_information',false);	
+	// Learning Centre Attendee Information
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	//Learning Centre Attendee Information
+g_form.setDisplay('attendee_information',true);	
+	g_form.setMandatory('number_of_in_person_attendees',true);
+	g_form.setMandatory('will_there_be_any_remote_attendees',true);
+	g_form.setMandatory('number_of_remote_attendee',false);
+	g_form.setVisible('number_of_remote_attendee',false);
+	g_form.setMandatory('will_there_be_any_non_niaid_attendees',true);
+	g_form.setMandatory('number_of_non_niaid_attendees_ai',false);
+	g_form.setVisible('number_of_non_niaid_attendees_ai',false);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Learning Centre Attendee Information</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 17:36:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a343f1111bb1e910fdd8848ce54bcbda</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Learning Centre Attendee Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_a343f1111bb1e910fdd8848ce54bcbda</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:27:46</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_a343f1111bb1e910fdd8848ce54bcbda</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:4a5634841b71e51080feea02f54bcbb7=Learning Center^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Room Reservation"&gt;fdc27c801b71e51080feea02f54bcb3f&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+// Learning Centre Attendee Information
+	g_form.setMandatory('number_of_in_person_attendees',false);
+	g_form.setMandatory('will_there_be_any_remote_attendees',false);
+	g_form.setMandatory('number_of_remote_attendee',false);
+	g_form.setMandatory('will_there_be_any_non_niaid_attendees',false);
+	g_form.setMandatory('number_of_non_niaid_attendees_ai',false);
+
+
+g_form.setDisplay('attendee_information',false);	
+	// Learning Centre Attendee Information
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	//Learning Centre Attendee Information
+g_form.setDisplay('attendee_information',true);	
+	g_form.setMandatory('number_of_in_person_attendees',true);
+	g_form.setMandatory('will_there_be_any_remote_attendees',true);
+	g_form.setMandatory('number_of_remote_attendee',false);
+	g_form.setVisible('number_of_remote_attendee',false);
+	g_form.setMandatory('will_there_be_any_non_niaid_attendees',true);
+	g_form.setMandatory('number_of_non_niaid_attendees_ai',false);
+	g_form.setVisible('number_of_non_niaid_attendees_ai',false);
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Learning Centre Attendee Information&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;bassem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-24 17:36:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a343f1111bb1e910fdd8848ce54bcbda&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Learning Centre Attendee Information&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet"&gt;c67fe0cc1b31e51080feea02f54bcb32&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OWS Meet"&gt;c67fe0cc1b31e51080feea02f54bcb32&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_a343f1111bb1e910fdd8848ce54bcbda&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bassem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 20:27:46&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1409995217</payload_hash>
+        <record_name>Learning Centre Attendee Information</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 20:27:47</sys_created_on>
+        <sys_id>63286e961b52e110fdd8848ce54bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187a58061b80000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:27:47</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>2b286e964352e110a0cd2f3b7e377bbc</update_guid>
+        <update_guid_history>2b286e964352e110a0cd2f3b7e377bbc:-1409995217,ce1b80132cf9e150cebdf2e994d78494:451175668,cc59001346f9e15089289d8f324785a1:-377275640,9187cc5ffbb9e150be0d237281d89c3f:451175668,9d47401ff7b9e150c130c2a92e9c2a8e:-377275640,bf16391538b1e910b9fa8607229b8930:451175668,95b43d91c0b1e910aa5f3281b3d1fccd:-238824673,bd74b95172b1e910f4077ec07b05c501:-140761193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">05b747561bd2e110fdd8848ce54bcb1e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 22:45:30</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>1456e422ba8c465783f6328d95ee6d69</sys_id>
+        <sys_metadata>a343f1111bb1e910fdd8848ce54bcbda</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Centre Attendee Information</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_a343f1111bb1e910fdd8848ce54bcbda</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_a343f1111bb1e910fdd8848ce54bcbda">63286e961b52e110fdd8848ce54bcbbd</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 22:45:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

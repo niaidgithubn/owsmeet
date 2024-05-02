@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item>
+        <catalog_variable>IO:7f41c29d1bb1e910fdd8848ce54bcb7d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 20:25:57</sys_created_on>
+        <sys_id>7d744e9f1bdae51080feea02f54bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>is_this_computer_based_training</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7d744e9f1bdae51080feea02f54bcb6b</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 20:27:27</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Is this computer-based training">b474869f1bdae51080feea02f54bcb01</ui_policy>
+        <variable>is_this_computer_based_training</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_action_7d744e9f1bdae51080feea02f54bcb6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item><catalog_variable>IO:7f41c29d1bb1e910fdd8848ce54bcb7d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-04-24 20:25:57</sys_created_on><sys_id>7d744e9f1bdae51080feea02f54bcb6b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>is_this_computer_based_training</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>catalog_ui_policy_action_7d744e9f1bdae51080feea02f54bcb6b</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-04-24 20:27:27</sys_updated_on><table/><ui_policy display_value="Is this computer-based training">b474869f1bdae51080feea02f54bcb01</ui_policy><variable>is_this_computer_based_training</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>917048677</payload_hash>
+        <record_name>is_this_computer_based_training</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 20:27:27</sys_created_on>
+        <sys_id>8ce4ca9f1bdae51080feea02f54bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b4f329350000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 20:27:27</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>44e4ca9fe6dae510ec390eabecace601</update_guid>
+        <update_guid_history>44e4ca9fe6dae510ec390eabecace601:917048677,c2848e9faedae5100b001fa21a1bfc6b:-2107696876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">61f486df1bdae51080feea02f54bcbb8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-24 20:27:49</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>071e65a1bded4975830572083785f9f9</sys_id>
+        <sys_metadata>7d744e9f1bdae51080feea02f54bcb6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>is_this_computer_based_training</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7d744e9f1bdae51080feea02f54bcb6b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7d744e9f1bdae51080feea02f54bcb6b">8ce4ca9f1bdae51080feea02f54bcb01</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-24 20:27:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

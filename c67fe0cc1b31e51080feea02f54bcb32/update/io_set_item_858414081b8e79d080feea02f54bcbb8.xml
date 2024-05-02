@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>10000</order>
+        <sc_cat_item display_value="Meeting A/V Support">6fa47c951bfde91080feea02f54bcba0</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>UmeshR</sys_created_by>
+        <sys_created_on>2023-10-17 19:51:44</sys_created_on>
+        <sys_id>858414081b8e79d080feea02f54bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Vendor_OWS.Meeting A/V Support</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>io_set_item_858414081b8e79d080feea02f54bcbb8</sys_update_name>
+        <sys_updated_by>UmeshR</sys_updated_by>
+        <sys_updated_on>2023-10-17 19:52:03</sys_updated_on>
+        <variable_set display_value="Vendor_OWS">d6ebdfd71b75bd9080feea02f54bcba4</variable_set>
+    </io_set_item>
+</record_update>

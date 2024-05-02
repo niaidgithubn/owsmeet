@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Meet cat-subcat request_type</name>
+        <parent>3f5270801b71e51080feea02f54bcb24</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 15:35:20</sys_created_on>
+        <sys_id>775270801b71e51080feea02f54bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meet cat-subcat request_type</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_775270801b71e51080feea02f54bcb26</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 15:35:20</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

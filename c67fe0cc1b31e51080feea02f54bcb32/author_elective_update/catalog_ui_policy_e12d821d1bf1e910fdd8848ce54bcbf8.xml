@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:4a5634841b71e51080feea02f54bcbb7=Virtual^EQ</catalog_conditions>
+        <catalog_item display_value="Room Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+//g_form.setMandatory('event_information',true);
+g_form.setMandatory('every_week_s',false);
+g_form.setMandatory('day_vr',false);
+	g_form.setDisplay('weekly_vr',false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	//weekly //
+g_form.setDisplay('weekly_vr',true);
+//g_form.setMandatory('event_information',true);
+g_form.setMandatory('every_week_s',true);
+g_form.setMandatory('day_vr',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Virtual weekly</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 19:25:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e12d821d1bf1e910fdd8848ce54bcbf8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Virtual weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_e12d821d1bf1e910fdd8848ce54bcbf8</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:27:47</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_e12d821d1bf1e910fdd8848ce54bcbf8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:4a5634841b71e51080feea02f54bcbb7=Virtual^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Room Reservation"&gt;fdc27c801b71e51080feea02f54bcb3f&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+//g_form.setMandatory('event_information',true);
+g_form.setMandatory('every_week_s',false);
+g_form.setMandatory('day_vr',false);
+	g_form.setDisplay('weekly_vr',false);
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	//weekly //
+g_form.setDisplay('weekly_vr',true);
+//g_form.setMandatory('event_information',true);
+g_form.setMandatory('every_week_s',true);
+g_form.setMandatory('day_vr',true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Virtual weekly&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;bassem&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-24 19:25:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e12d821d1bf1e910fdd8848ce54bcbf8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Virtual weekly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet"&gt;c67fe0cc1b31e51080feea02f54bcb32&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OWS Meet"&gt;c67fe0cc1b31e51080feea02f54bcb32&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_e12d821d1bf1e910fdd8848ce54bcbf8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bassem&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-21 20:27:47&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1185816207</payload_hash>
+        <record_name>Virtual weekly</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 20:27:47</sys_created_on>
+        <sys_id>732826d61b52e110fdd8848ce54bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187a58063d80000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 20:27:47</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>3b2826d60152e1106df118b96f25453b</update_guid>
+        <update_guid_history>3b2826d60152e1106df118b96f25453b:-1185816207,95405e9d03f1e910a942107b97626188:1331257228,1fed0a1d85f1e9108ab152ae01082aaa:-617410541,245dce1dd6f1e9100c1c3651ecd8d926:-1048201782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4db747561bd2e110fdd8848ce54bcb5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 22:45:30</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>031b2cfcb97347f58076e5690ca89bf9</sys_id>
+        <sys_metadata>e12d821d1bf1e910fdd8848ce54bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Virtual weekly</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_e12d821d1bf1e910fdd8848ce54bcbf8</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_e12d821d1bf1e910fdd8848ce54bcbf8">732826d61b52e110fdd8848ce54bcb3c</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 22:45:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

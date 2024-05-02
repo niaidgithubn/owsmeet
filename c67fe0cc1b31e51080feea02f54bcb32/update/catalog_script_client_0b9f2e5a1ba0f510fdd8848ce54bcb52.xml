@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Poster Printing Services">7a732b6a1b326d10fdd8848ce54bcb4c</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make All the fields Read Only Poster</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	g_form.setReadOnly("poster_division",true);
+	g_form.setReadOnly("poster_description",true);
+	g_form.setReadOnly("project_specifies",true);
+	g_form.setReadOnly("Request_quantity",true);
+	g_form.setReadOnly("poster_size",true);
+	g_form.setReadOnly("print_color",true);
+	g_form.setReadOnly("poster_orientation",true);
+	g_form.setReadOnly("paper_type",true);
+	g_form.setReadOnly("poster_mount",true);
+	g_form.setReadOnly("poster_pickup",true);
+	g_form.setReadOnly("display_date",true);
+	g_form.setReadOnly("removal_date",true);
+	g_form.setReadOnly("post_display",true);
+	g_form.setReadOnly("display_location",true);
+	g_form.setReadOnly("front_entrance",true);
+	g_form.setReadOnly("employee_entrance",true);
+	g_form.setReadOnly("conference_service_reception",true);
+	
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2023-08-11 17:34:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b9f2e5a1ba0f510fdd8848ce54bcb52</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Make All the fields Read Only Poster</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_script_client_0b9f2e5a1ba0f510fdd8848ce54bcb52</sys_update_name>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2023-08-11 17:46:20</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Meet request">fdc27c801b71e51080feea02f54bcb3f</catalog_item>
+        <catalog_variable>IO:6670fd401b75e51080feea02f54bcb88</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 20:59:30</sys_created_on>
+        <sys_id>a97c39401bb5e51080feea02f54bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>describe_event_in_2_to_3_sentences</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a97c39401bb5e51080feea02f54bcb24</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 20:59:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="describe event in 2 to 3 sentences:  ">df9b79001bb5e51080feea02f54bcb56</ui_policy>
+        <variable>describe_event_in_2_to_3_sentences</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_action_a97c39401bb5e51080feea02f54bcb24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Meet request">fdc27c801b71e51080feea02f54bcb3f</catalog_item><catalog_variable>IO:6670fd401b75e51080feea02f54bcb88</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-20 20:59:30</sys_created_on><sys_id>a97c39401bb5e51080feea02f54bcb24</sys_id><sys_mod_count>0</sys_mod_count><sys_name>describe_event_in_2_to_3_sentences</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>catalog_ui_policy_action_a97c39401bb5e51080feea02f54bcb24</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-20 20:59:30</sys_updated_on><table/><ui_policy display_value="describe event in 2 to 3 sentences:  ">df9b79001bb5e51080feea02f54bcb56</ui_policy><variable>describe_event_in_2_to_3_sentences</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-758109732</payload_hash>
+        <record_name>describe_event_in_2_to_3_sentences</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-20 20:59:30</sys_created_on>
+        <sys_id>9c9cb5401bb5e51080feea02f54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18700d1ee720000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-20 20:59:30</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>949cb540d6b5e510d573fea15876d219</update_guid>
+        <update_guid_history>949cb540d6b5e510d573fea15876d219:-758109732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">677bbcdd1bfde91080feea02f54bcba7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-03-24 13:27:35</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>55cbf98f703148e4ba29dcecccd8dfe4</sys_id>
+        <sys_metadata>a97c39401bb5e51080feea02f54bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>describe_event_in_2_to_3_sentences</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a97c39401bb5e51080feea02f54bcb24</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a97c39401bb5e51080feea02f54bcb24">9c9cb5401bb5e51080feea02f54bcb19</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-24 13:27:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

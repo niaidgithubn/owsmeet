@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>total_number_of_anticipated_event_attendees</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 19:15:50</sys_created_on>
+        <sys_id>222bc6591bf1e910fdd8848ce54bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total number of anticipated event attendees</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>item_option_new_set_222bc6591bf1e910fdd8848ce54bcb18</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:15:50</sys_updated_on>
+        <title>Total number of anticipated event attendees</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>item_option_new_set_222bc6591bf1e910fdd8848ce54bcb18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>true</display_title><internal_name>total_number_of_anticipated_event_attendees</internal_name><layout>2across</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>bassem</sys_created_by><sys_created_on>2023-03-24 19:15:50</sys_created_on><sys_id>222bc6591bf1e910fdd8848ce54bcb18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Total number of anticipated event attendees</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>item_option_new_set_222bc6591bf1e910fdd8848ce54bcb18</sys_update_name><sys_updated_by>bassem</sys_updated_by><sys_updated_on>2023-03-24 19:15:50</sys_updated_on><title>Total number of anticipated event attendees</title><type>one_to_one</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>1810810047</payload_hash>
+        <record_name>Total number of anticipated event attendees</record_name>
+        <reverted_from/>
+        <source>1a7fe0cc1b31e51080feea02f54bcb34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 19:15:50</sys_created_on>
+        <sys_id>243b42591bf1e910fdd8848ce54bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187150c73430000001</sys_recorded_at>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:15:50</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>2c3b425969f1e9100ee24f4db2396562</update_guid>
+        <update_guid_history>2c3b425969f1e9100ee24f4db2396562:1810810047</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">19c6f6561b92e110fdd8848ce54bcbf1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-04-21 21:31:30</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>08f649fbc94c4c608384687487b5a400</sys_id>
+        <sys_metadata>222bc6591bf1e910fdd8848ce54bcb18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total number of anticipated event attendees</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>item_option_new_set_222bc6591bf1e910fdd8848ce54bcb18</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_222bc6591bf1e910fdd8848ce54bcb18">243b42591bf1e910fdd8848ce54bcb63</sys_update_version>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-04-21 21:31:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

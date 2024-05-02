@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Day">58fb46d91bf1e910fdd8848ce54bcbb0</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>bassem</sys_created_by>
+        <sys_created_on>2023-03-24 19:21:59</sys_created_on>
+        <sys_id>8b7c86d91bf1e910fdd8848ce54bcbd8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Thursday</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>question_choice_8b7c86d91bf1e910fdd8848ce54bcbd8</sys_update_name>
+        <sys_updated_by>bassem</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:22:35</sys_updated_on>
+        <text>Thursday</text>
+        <value>thursday</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8b7c86d91bf1e910fdd8848ce54bcbd8"/>
+</record_update>
