@@ -8,53 +8,37 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>set</applies_to>
         <cat_item/>
-        <cat_variable>IO:106ce1c81b35e51080feea02f54bcba2</cat_variable>
+        <cat_variable>IO:360c658c1b35e51080feea02f54bcbb2</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>End Date validation</name>
+        <name>Start  Date Change</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
+    if (isLoading) {
         return;
     }
-    if (g_form.getValue('event_start_date') == "") {
         g_form.clearValue('event_end_date');
-        g_form.showFieldMsg('event_end_date', "Please select a Start date first", 'error');
-    }
-    var startDate = g_form.getValue('event_start_date');
-    var dueDate = g_form.getValue('event_end_date');
-	
-	if(dueDate<=startDate)
-		{
-			g_form.clearValue("event_end_date");
-			 g_form.showFieldMsg('event_end_date', "The due date must be equal to or greater than the start date.       Please select another date.", 'error');
-			
-		}
-   //var startDateNum = getDateFromFormat(startDate, g_user_date_time_format); // change to g_user_date_time_format if field type is date/time
-//  var dueDateNum = getDateFromFormat(dueDate, g_user_date_time_format); // change to g_user_date_time_format if field type is date/time
-//  if (dueDateNum < startDateNum) {
-//      g_form.showFieldMsg('event_end_date', "The due date must be equal to or greater than the start date.       Please select another date.", 'error');
-//  }
+     
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
-        <sys_created_by>bassem</sys_created_by>
-        <sys_created_on>2023-06-07 19:09:00</sys_created_on>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2024-05-31 19:30:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>38b810e91b936510fdd8848ce54bcbda</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>End Date validation</sys_name>
+        <sys_id>da80dd8197a24290eb87b217f053af14</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Start  Date Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
         <sys_policy/>
         <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
-        <sys_update_name>catalog_script_client_38b810e91b936510fdd8848ce54bcbda</sys_update_name>
+        <sys_update_name>catalog_script_client_da80dd8197a24290eb87b217f053af14</sys_update_name>
         <sys_updated_by>jatothr2</sys_updated_by>
-        <sys_updated_on>2024-05-31 19:29:45</sys_updated_on>
+        <sys_updated_on>2024-05-31 19:36:06</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
