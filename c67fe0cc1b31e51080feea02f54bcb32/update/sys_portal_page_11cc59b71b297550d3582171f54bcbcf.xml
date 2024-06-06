@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-06-03 17:37:47">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-06-06 14:32:39">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -38,7 +38,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_real_time</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>18cdd1bb1b297550d3582171f54bcb54</sys_id>
@@ -49,7 +49,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>50cdd1bb1b297550d3582171f54bcb55</sys_id>
@@ -60,7 +60,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>54cdd1bb1b297550d3582171f54bcb54</sys_id>
@@ -71,7 +71,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>5ccdd1bb1b297550d3582171f54bcb55</sys_id>
@@ -82,7 +82,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>90cdd1bb1b297550d3582171f54bcb54</sys_id>
@@ -93,7 +93,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>9ccdd1bb1b297550d3582171f54bcb54</sys_id>
@@ -104,7 +104,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>d4cdd1bb1b297550d3582171f54bcb53</sys_id>
@@ -115,7 +115,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-10-04 04:17:33 PM">50cdd1bb1b297550d3582171f54bcb53</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:17:33">50cdd1bb1b297550d3582171f54bcb53</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:17:33</sys_created_on>
                         <sys_id>d8cdd1bb1b297550d3582171f54bcb54</sys_id>
@@ -140,7 +140,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>33cc99b71b297550d3582171f54bcbce</sys_id>
@@ -151,7 +151,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>3fcc99b71b297550d3582171f54bcbcc</sys_id>
@@ -162,7 +162,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>7fcc99b71b297550d3582171f54bcbcd</sys_id>
@@ -173,7 +173,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>bbcc99b71b297550d3582171f54bcbcd</sys_id>
@@ -184,7 +184,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>f3cc99b71b297550d3582171f54bcbce</sys_id>
@@ -195,7 +195,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2023-10-04 04:13:25 PM">b7cc99b71b297550d3582171f54bcbcc</portal_section>
+                        <portal_section display_value="Created 2023-10-04 16:13:25">b7cc99b71b297550d3582171f54bcbcc</portal_section>
                         <sys_created_by>yarraguntlas2</sys_created_by>
                         <sys_created_on>2023-10-04 20:13:25</sys_created_on>
                         <sys_id>f7cc99b71b297550d3582171f54bcbcd</sys_id>
