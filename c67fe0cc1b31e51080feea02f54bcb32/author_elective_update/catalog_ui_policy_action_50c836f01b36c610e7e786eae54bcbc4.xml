@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Meeting &amp; Events Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item>
+        <catalog_variable>IO:e3b732701b36c610e7e786eae54bcb2d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2024-06-12 18:43:29</sys_created_on>
+        <sys_id>50c836f01b36c610e7e786eae54bcbc4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>learn_center</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_50c836f01b36c610e7e786eae54bcbc4</sys_update_name>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2024-06-12 18:43:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Based on Room location conference center display attachment field">fa40b23c1bb2c610e7e786eae54bcbf0</ui_policy>
+        <variable>learn_center</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</application>
+        <file_path/>
+        <instance_id>f9d018d91b5fd01041ab202de54bcbc2</instance_id>
+        <instance_name>niaiddev</instance_name>
+        <name>catalog_ui_policy_action_50c836f01b36c610e7e786eae54bcbc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Meeting &amp; Events Reservation">fdc27c801b71e51080feea02f54bcb3f</catalog_item><catalog_variable>IO:e3b732701b36c610e7e786eae54bcb2d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>200</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>jatothr2</sys_created_by><sys_created_on>2024-06-12 18:43:29</sys_created_on><sys_id>50c836f01b36c610e7e786eae54bcbc4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>learn_center</sys_name><sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package><sys_policy/><sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope><sys_update_name>catalog_ui_policy_action_50c836f01b36c610e7e786eae54bcbc4</sys_update_name><sys_updated_by>jatothr2</sys_updated_by><sys_updated_on>2024-06-12 18:43:40</sys_updated_on><table/><ui_policy display_value="Based on Room location conference center display attachment field">fa40b23c1bb2c610e7e786eae54bcbf0</ui_policy><variable>learn_center</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1421259717</payload_hash>
+        <record_name>learn_center</record_name>
+        <reverted_from/>
+        <source>b6e1736f1b710650e7e786eae54bcbf3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2024-06-12 18:43:40</sys_created_on>
+        <sys_id>86e832b01b36c610e7e786eae54bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900dc3492c0000001</sys_recorded_at>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2024-06-12 18:43:40</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>cae832b03836c6104b64c03205878a18</update_guid>
+        <update_guid_history>cae832b03836c6104b64c03205878a18:1421259717,27d8f2f0ef36c6105f797f14c835de2a:1854952516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="learn_center">ad2c0ffc1b76c610e7e786eae54bcb6e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jatothr2</sys_created_by>
+        <sys_created_on>2024-06-12 20:07:44</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>122f38b6b9d8481085e6be5397d74790</sys_id>
+        <sys_metadata>50c836f01b36c610e7e786eae54bcbc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>learn_center</sys_name>
+        <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
+        <sys_scope_delete display_value="">1dbe6b50b2464ff085902289fb370e90</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_50c836f01b36c610e7e786eae54bcbc4</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_50c836f01b36c610e7e786eae54bcbc4">86e832b01b36c610e7e786eae54bcb19</sys_update_version>
+        <sys_updated_by>jatothr2</sys_updated_by>
+        <sys_updated_on>2024-06-12 20:07:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
