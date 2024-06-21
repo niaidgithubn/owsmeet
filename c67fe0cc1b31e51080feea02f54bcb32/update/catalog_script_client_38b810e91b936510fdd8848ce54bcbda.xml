@@ -17,6 +17,7 @@
         <messages/>
         <name>End Date validation</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '') {
         return;
@@ -58,6 +59,7 @@ var dueDateNum = getDateFromFormat(dueDate, g_user_date_time_format); // change 
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
         <variable_set display_value="Event Information ">00a8b01d1bfde91080feea02f54bcb07</variable_set>
         <view/>
     </catalog_script_client>

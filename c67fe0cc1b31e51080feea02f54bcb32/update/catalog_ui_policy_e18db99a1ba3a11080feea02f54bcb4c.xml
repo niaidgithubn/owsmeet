@@ -17,6 +17,7 @@
         <model_table/>
         <on_load>false</on_load>
         <order>100</order>
+        <published_ref/>
         <reverse_if_false>false</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -47,6 +48,7 @@
         <sys_updated_on>2023-08-08 21:39:01</sys_updated_on>
         <table/>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_ui_policy>

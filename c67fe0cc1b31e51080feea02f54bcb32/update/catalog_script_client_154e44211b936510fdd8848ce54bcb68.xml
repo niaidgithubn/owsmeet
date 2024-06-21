@@ -17,6 +17,7 @@
         <messages/>
         <name>Traininng sponsore phone</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 if (isLoading || newValue === '') {
     return;
@@ -57,6 +58,7 @@ phone = '(' + phone.slice(0,3) + ') ' + phone.slice(3,6)+'-' + phone.slice(6,10)
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Training Information">df2de9d91b71e910fdd8848ce54bcb75</variable_set>
         <view/>
     </catalog_script_client>

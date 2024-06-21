@@ -17,6 +17,7 @@
         <messages/>
         <name>Limit number of rows</name>
         <order/>
+        <published_ref/>
         <script/>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>bassem</sys_created_by>
@@ -36,6 +37,7 @@
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Vehicle(s) details">c0e13ebc1bfbe910fdd8848ce54bcb40</variable_set>
         <view/>
     </catalog_script_client>

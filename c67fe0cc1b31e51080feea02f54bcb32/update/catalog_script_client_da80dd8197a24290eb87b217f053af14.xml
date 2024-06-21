@@ -17,6 +17,7 @@
         <messages/>
         <name>Start  Date Change</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading) {
         return;
@@ -42,6 +43,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Event Information ">00a8b01d1bfde91080feea02f54bcb07</variable_set>
         <view/>
     </catalog_script_client>

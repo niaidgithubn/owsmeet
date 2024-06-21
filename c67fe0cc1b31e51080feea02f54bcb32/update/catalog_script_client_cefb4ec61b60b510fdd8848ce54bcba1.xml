@@ -17,6 +17,7 @@
         <messages/>
         <name>Minimum one vechile</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onSubmit() {
 	if(g_form.getValue('vehicle_s_details') == '[]'){
 		g_form.addErrorMessage('You must enter at least 1');
@@ -42,6 +43,7 @@
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

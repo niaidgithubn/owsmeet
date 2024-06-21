@@ -17,6 +17,7 @@
         <messages/>
         <name>Limit number of vehicle</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
 //Type appropriate comment here, and begin script below
 
@@ -44,6 +45,7 @@ gen_info.max_rows_size = 3;
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

@@ -17,6 +17,7 @@
         <messages/>
         <name>Date validation LC</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '') {
         return;
@@ -51,6 +52,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
         <variable_set display_value="Training Information">df2de9d91b71e910fdd8848ce54bcb75</variable_set>
         <view/>
     </catalog_script_client>

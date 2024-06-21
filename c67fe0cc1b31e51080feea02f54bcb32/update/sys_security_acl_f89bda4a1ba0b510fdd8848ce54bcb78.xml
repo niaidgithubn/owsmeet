@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description/>
+        <local_or_existing>Local</local_or_existing>
         <name>Poster_Printing_Util</name>
         <operation display_value="execute">execute</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>jatothr2</sys_created_by>
         <sys_created_on>2023-08-10 21:15:30</sys_created_on>

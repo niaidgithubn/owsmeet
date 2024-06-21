@@ -17,6 +17,7 @@
         <model_table/>
         <on_load>false</on_load>
         <order>100</order>
+        <published_ref/>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -45,6 +46,7 @@ g_form.addErrorMessage(getMessage ('Please enter a valid date that should be in 
         <sys_updated_on>2024-06-05 21:06:33</sys_updated_on>
         <table/>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_ui_policy>
