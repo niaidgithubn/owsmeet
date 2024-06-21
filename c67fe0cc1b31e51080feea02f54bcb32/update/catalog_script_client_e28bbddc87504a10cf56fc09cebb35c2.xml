@@ -17,11 +17,14 @@
         <messages/>
         <name>Make All the fields Read Only except par</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
 	
 	g_form.setReadOnly("request_type",true);
 	g_form.setReadOnly("nih_badge_id",true);
+	g_form.setReadOnly("start_date",true);
+	g_form.setReadOnly("end_date",true);
 	g_form.setReadOnly("phone_number",true);
 	g_form.setReadOnly("division",true);
 	g_form.setReadOnly("branch",true);
@@ -43,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e28bbddc87504a10cf56fc09cebb35c2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Make All the fields Read Only except par</sys_name>
         <sys_overrides/>
         <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
@@ -51,10 +54,11 @@
         <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
         <sys_update_name>catalog_script_client_e28bbddc87504a10cf56fc09cebb35c2</sys_update_name>
         <sys_updated_by>jatothr2</sys_updated_by>
-        <sys_updated_on>2024-02-07 21:22:38</sys_updated_on>
+        <sys_updated_on>2024-06-21 17:32:02</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>
