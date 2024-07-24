@@ -13,17 +13,17 @@
         <sys_created_by>bassem</sys_created_by>
         <sys_created_on>2023-03-24 13:16:03</sys_created_on>
         <sys_id>00a8b01d1bfde91080feea02f54bcb07</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Event Information </sys_name>
         <sys_package display_value="OWS Meet" source="x_g_nioa_ows_meet">c67fe0cc1b31e51080feea02f54bcb32</sys_package>
         <sys_policy/>
         <sys_scope display_value="OWS Meet">c67fe0cc1b31e51080feea02f54bcb32</sys_scope>
         <sys_update_name>item_option_new_set_00a8b01d1bfde91080feea02f54bcb07</sys_update_name>
-        <sys_updated_by>bassem</sys_updated_by>
-        <sys_updated_on>2023-03-24 13:39:12</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 17:24:24</sys_updated_on>
         <title>Event Information </title>
         <type>one_to_one</type>
-        <version/>
+        <version>13</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>

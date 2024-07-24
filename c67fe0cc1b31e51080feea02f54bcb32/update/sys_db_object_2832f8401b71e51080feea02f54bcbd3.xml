@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access/>
         <actions_access>true</actions_access>
@@ -21,6 +21,9 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>bassem</sys_created_by>
         <sys_created_on>2023-03-20 15:34:34</sys_created_on>
+        <sys_db_object/>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>2832f8401b71e51080feea02f54bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Nioa Ows Meet Meet Cat Subcat</sys_name>
